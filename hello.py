@@ -27,7 +27,10 @@ print(type(e))  # THIS gives the type for e !
 name = "Ahmed"
 age  = 30000
 print("My name is", name)
-
+if name == "Ahmed":
+    print("He is Ahmed")
+else:
+    print("No he is not!")
 
 
 
